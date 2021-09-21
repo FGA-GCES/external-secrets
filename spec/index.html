@@ -609,6 +609,123 @@
   
 
           
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
+      
+      <label class="md-nav__link" for="__nav_5_6">
+        Yandex
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Yandex" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_6">
+          <span class="md-nav__icon md-icon"></span>
+          Yandex
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider-yandex-lockbox/" class="md-nav__link">
+        Lockbox
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
+      
+      <label class="md-nav__link" for="__nav_5_7">
+        Gitlab
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Gitlab" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_7">
+          <span class="md-nav__icon md-icon"></span>
+          Gitlab
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider-gitlab-project-variables/" class="md-nav__link">
+        Gitlab Project Variables
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
+      
+      <label class="md-nav__link" for="__nav_5_8">
+        Oracle
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Oracle" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_8">
+          <span class="md-nav__icon md-icon"></span>
+          Oracle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider-oracle-vault/" class="md-nav__link">
+        Oracle Vault
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -998,6 +1115,131 @@ see: <a href="https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.
 </td>
 </tr></tbody>
 </table>
+<h3 id="external-secrets.io/v1alpha1.AlibabaAuth">AlibabaAuth
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.AlibabaProvider">AlibabaProvider</a>)
+</p>
+<p>
+<p>AlibabaAuth contains a secretRef for credentials.</p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>secretRef</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.AlibabaAuthSecretRef">
+AlibabaAuthSecretRef
+</a>
+</em>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.AlibabaAuthSecretRef">AlibabaAuthSecretRef
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.AlibabaAuth">AlibabaAuth</a>)
+</p>
+<p>
+<p>AlibabaAuthSecretRef holds secret references for Alibaba credentials.</p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>accessKeyIDSecretRef</code></br>
+<em>
+github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+</em>
+</td>
+<td>
+<p>The AccessKeyID is used for authentication</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>accessKeySecretSecretRef</code></br>
+<em>
+github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+</em>
+</td>
+<td>
+<p>The AccessKeySecret is used for authentication</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.AlibabaProvider">AlibabaProvider
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.SecretStoreProvider">SecretStoreProvider</a>)
+</p>
+<p>
+<p>AlibabaProvider configures a store to sync secrets using the Alibaba Secret Manager provider.</p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>auth</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.AlibabaAuth">
+AlibabaAuth
+</a>
+</em>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<code>endpoint</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+</td>
+</tr>
+<tr>
+<td>
+<code>regionID</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<p>Alibaba Region to be used for the provider</p>
+</td>
+</tr>
+</tbody>
+</table>
 <h3 id="external-secrets.io/v1alpha1.AzureKVAuth">AzureKVAuth
 </h3>
 <p>
@@ -1316,7 +1558,9 @@ ExternalSecretStatus
 <th>Description</th>
 </tr>
 </thead>
-<tbody><tr><td><p>&#34;Ready&#34;</p></td>
+<tbody><tr><td><p>&#34;Deleted&#34;</p></td>
+<td></td>
+</tr><tr><td><p>&#34;Ready&#34;</p></td>
 <td></td>
 </tr></tbody>
 </table>
@@ -1924,6 +2168,7 @@ GCPSMAuth
 </em>
 </td>
 <td>
+<em>(Optional)</em>
 <p>Auth defines the information necessary to authenticate against GCP</p>
 </td>
 </tr>
@@ -1946,6 +2191,119 @@ string
 <p>GenericStore is a common interface for interacting with ClusterSecretStore
 or a namespaced SecretStore.</p>
 </p>
+<h3 id="external-secrets.io/v1alpha1.GitlabAuth">GitlabAuth
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.GitlabProvider">GitlabProvider</a>)
+</p>
+<p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>SecretRef</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.GitlabSecretRef">
+GitlabSecretRef
+</a>
+</em>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.GitlabProvider">GitlabProvider
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.SecretStoreProvider">SecretStoreProvider</a>)
+</p>
+<p>
+<p>Configures a store to sync secrets with a GitLab instance.</p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>url</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<p>URL configures the GitLab instance URL. Defaults to <a href="https://gitlab.com/">https://gitlab.com/</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>auth</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.GitlabAuth">
+GitlabAuth
+</a>
+</em>
+</td>
+<td>
+<p>Auth configures how secret-manager authenticates with a GitLab instance.</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>projectID</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<p>ProjectID specifies a project where secrets are located.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.GitlabSecretRef">GitlabSecretRef
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.GitlabAuth">GitlabAuth</a>)
+</p>
+<p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>accessToken</code></br>
+<em>
+github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+</em>
+</td>
+<td>
+<p>AccessToken is used for authentication.</p>
+</td>
+</tr>
+</tbody>
+</table>
 <h3 id="external-secrets.io/v1alpha1.IBMAuth">IBMAuth
 </h3>
 <p>
@@ -2046,6 +2404,143 @@ string
 </td>
 <td>
 <p>ServiceURL is the Endpoint URL that is specific to the Secrets Manager service instance</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.OracleAuth">OracleAuth
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.OracleProvider">OracleProvider</a>)
+</p>
+<p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>secretRef</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.OracleSecretRef">
+OracleSecretRef
+</a>
+</em>
+</td>
+<td>
+<p>SecretRef to pass through sensitive information.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.OracleProvider">OracleProvider
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.SecretStoreProvider">SecretStoreProvider</a>)
+</p>
+<p>
+<p>Configures an store to sync secrets using a Oracle Vault
+backend.</p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>auth</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.OracleAuth">
+OracleAuth
+</a>
+</em>
+</td>
+<td>
+<p>Auth configures how secret-manager authenticates with the Oracle Vault.</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>user</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<p>User is an access OCID specific to the account.</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>tenancy</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<p>projectID is an access token specific to the secret.</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>region</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<p>projectID is an access token specific to the secret.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.OracleSecretRef">OracleSecretRef
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.OracleAuth">OracleAuth</a>)
+</p>
+<p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>privatekey</code></br>
+<em>
+github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+</em>
+</td>
+<td>
+<p>The Access Token is used for authentication</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>fingerprint</code></br>
+<em>
+github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+</em>
+</td>
+<td>
+<p>projectID is an access token specific to the secret.</p>
 </td>
 </tr>
 </tbody>
@@ -2227,6 +2722,20 @@ GCPSMProvider
 </tr>
 <tr>
 <td>
+<code>oracle</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.OracleProvider">
+OracleProvider
+</a>
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>Oracle configures this store to sync secrets using Oracle Vault provider</p>
+</td>
+</tr>
+<tr>
+<td>
 <code>ibm</code></br>
 <em>
 <a href="#external-secrets.io/v1alpha1.IBMProvider">
@@ -2237,6 +2746,48 @@ IBMProvider
 <td>
 <em>(Optional)</em>
 <p>IBM configures this store to sync secrets using IBM Cloud provider</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>yandexlockbox</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.YandexLockboxProvider">
+YandexLockboxProvider
+</a>
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>YandexLockbox configures this store to sync secrets using Yandex Lockbox provider</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>gitlab</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.GitlabProvider">
+GitlabProvider
+</a>
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>GItlab configures this store to sync secrets using Gitlab Variables provider</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>alibaba</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.AlibabaProvider">
+AlibabaProvider
+</a>
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>Alibaba configures this store to sync secrets using Alibaba Cloud provider</p>
 </td>
 </tr>
 </tbody>
@@ -3047,6 +3598,80 @@ are used to validate the TLS connection.</p>
 </tr>
 </tbody>
 </table>
+<h3 id="external-secrets.io/v1alpha1.YandexLockboxAuth">YandexLockboxAuth
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.YandexLockboxProvider">YandexLockboxProvider</a>)
+</p>
+<p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>authorizedKeySecretRef</code></br>
+<em>
+github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>The authorized key used for authentication</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-secrets.io/v1alpha1.YandexLockboxProvider">YandexLockboxProvider
+</h3>
+<p>
+(<em>Appears on:</em>
+<a href="#external-secrets.io/v1alpha1.SecretStoreProvider">SecretStoreProvider</a>)
+</p>
+<p>
+<p>YandexLockboxProvider Configures a store to sync secrets using the Yandex Lockbox provider.</p>
+</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>apiEndpoint</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>Yandex.Cloud API endpoint (e.g. &lsquo;api.cloud.yandex.net:443&rsquo;)</p>
+</td>
+</tr>
+<tr>
+<td>
+<code>auth</code></br>
+<em>
+<a href="#external-secrets.io/v1alpha1.YandexLockboxAuth">
+YandexLockboxAuth
+</a>
+</em>
+</td>
+<td>
+<p>Auth defines the information necessary to authenticate against Yandex Lockbox</p>
+</td>
+</tr>
+</tbody>
+</table>
 <hr/>
 <p><em>
 Generated with <code>gen-crd-api-reference-docs</code>.
@@ -3070,7 +3695,7 @@ Generated with <code>gen-crd-api-reference-docs</code>.
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../provider-hashicorp-vault/" class="md-footer__link md-footer__link--prev" aria-label="Previous: HashiCorp Vault" rel="prev">
+        <a href="../provider-oracle-vault/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Oracle Vault" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -3079,7 +3704,7 @@ Generated with <code>gen-crd-api-reference-docs</code>.
               <span class="md-footer__direction">
                 Previous
               </span>
-              HashiCorp Vault
+              Oracle Vault
             </div>
           </div>
         </a>
