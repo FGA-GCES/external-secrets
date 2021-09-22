@@ -1,0 +1,1 @@
+# Bem vindo à documentação do grupo External Secrets Operator de GCES 2021.1
