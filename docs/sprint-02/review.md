@@ -1,4 +1,4 @@
-# Review - Sprint 2
+# Sprint 2
 
 Data de início: 12/08/2021
 
@@ -17,4 +17,8 @@ Issues
 
 ### Arthur Paiva
 
-Esta sprint foi principalmente para entendimento do escopo e código do projeto, houveram duas reuniões que participei com o meta coach e gravamos para ficar disponível para os demais, onde tratamos sobre kubernetes no geral, o que são operadores e qual o objetivo do eso. O meta coach também ensinou a executar o projeto da melhor forma para desenvolvimento, usar os segredos do google cloud, rodar os testes, modificar os testes e como está a arquitetura do operador. Nesta sprint também comecei a trabalhar na issue [#156](https://github.com/external-secrets/external-secrets/issues/156 em pareamento com o meta coach, onde fizemos testes para criar segredos imutáveis no cluster mas sem muito sucesso.
+&emsp;&emsp;Esta sprint foi principalmente para entendimento do escopo e código do projeto, houveram duas reuniões que participei com o meta coach e gravamos para ficar disponível para os demais, onde tratamos sobre kubernetes no geral, o que são operadores e qual o objetivo do eso. O meta coach também ensinou a executar o projeto da melhor forma para desenvolvimento, usar os segredos do google cloud, rodar os testes, modificar os testes e como está a arquitetura do operador. Nesta sprint também comecei a trabalhar na issue [#156](https://github.com/external-secrets/external-secrets/issues/156 em pareamento com o meta coach, onde fizemos testes para criar segredos imutáveis no cluster mas sem muito sucesso.
+
+### Mateus Oliveira Patrício
+
+&emsp;&emsp;Nesta sprint comecei a entender melhor o que o projeto faz de fato, não consegui participar de todas as reuniões de maneira síncrona mas assisti as gravações e além de conversar bastante pelo telegram com o Lucas Severo tivemos um pareamento onde ele me ajudou a debuggar a controller. A issue em que eu trabalhei foi bem tranquila, basicamente uma condição foi adicionada ao código, o desafio estava em debuggar e entender o que estava acontecendo ali.

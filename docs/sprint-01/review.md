@@ -1,4 +1,4 @@
-# Review - Sprint 1
+# Sprint 1
 
 Data de início: 29/07/2021
 
