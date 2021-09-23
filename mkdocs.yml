@@ -2,10 +2,15 @@ site_name: GCES - External Secrets Operator
 repo_url: https://github.com/FGA-GCES/external-secrets
 
 theme:
-        name: material
-        language: pt
+  name: material
+  language: pt
 
 nav:
-        - Sprint 1:
-                - Planning: sprint-01/planning.md
-                - Review: sprint-01/review.md
+  - Sprint 1:
+      - Review: sprint-01/review.md
+  - Sprint 2:
+      - Review: sprint-02/review.md
+  - Sprint 3:
+      - Review: sprint-03/review.md
+  - Sprint 4:
+      - Review: sprint-04/review.md
