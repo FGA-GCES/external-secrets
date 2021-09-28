@@ -9,19 +9,19 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1, mkdocs-material-7.1.8">
     
     
       
-        <title>External Secrets Operator</title>
+        <title>Overview - External Secrets Operator</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.ca7ac06f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ca7ac06f.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.f1a3b89f.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f1a3b89f.min.css">
         
       
     
@@ -64,12 +64,17 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("/",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#api-overview" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -78,7 +83,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="External Secrets Operator" class="md-header__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
+    <a href=".." title="External Secrets Operator" class="md-header__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -97,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Overview
             
           </span>
         </div>
@@ -171,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="External Secrets Operator" class="md-nav__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
+    <a href=".." title="External Secrets Operator" class="md-nav__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -203,7 +208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -216,11 +221,113 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/api-overview/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Overview
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resource-model" class="md-nav__link">
+    Resource model
+  </a>
+  
+    <nav class="md-nav" aria-label="Resource model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secretstore" class="md-nav__link">
+    SecretStore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#externalsecret" class="md-nav__link">
+    ExternalSecret
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clustersecretstore" class="md-nav__link">
+    ClusterSecretStore
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#behavior" class="md-nav__link">
+    Behavior
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roles-and-responsibilities" class="md-nav__link">
+    Roles and responsibilities
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-control" class="md-nav__link">
+    Access Control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-multiple-controller" class="md-nav__link">
+    Running multiple Controller
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -254,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-externalsecret/" class="md-nav__link">
+      <a href="../api-externalsecret/" class="md-nav__link">
         ExternalSecret
       </a>
     </li>
@@ -266,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-secretstore/" class="md-nav__link">
+      <a href="../api-secretstore/" class="md-nav__link">
         SecretStore
       </a>
     </li>
@@ -278,7 +385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-clustersecretstore/" class="md-nav__link">
+      <a href="../api-clustersecretstore/" class="md-nav__link">
         ClusterSecretStore
       </a>
     </li>
@@ -320,7 +427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-introduction/" class="md-nav__link">
+      <a href="../guides-introduction/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -332,7 +439,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-getting-started/" class="md-nav__link">
+      <a href="../guides-getting-started/" class="md-nav__link">
         Getting started
       </a>
     </li>
@@ -344,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-templating/" class="md-nav__link">
+      <a href="../guides-templating/" class="md-nav__link">
         Advanced Templating
       </a>
     </li>
@@ -356,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-all-keys-one-secret/" class="md-nav__link">
+      <a href="../guides-all-keys-one-secret/" class="md-nav__link">
         All keys, One secret
       </a>
     </li>
@@ -368,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-common-k8s-secret-types/" class="md-nav__link">
+      <a href="../guides-common-k8s-secret-types/" class="md-nav__link">
         Common K8S Secret Types
       </a>
     </li>
@@ -380,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-multi-tenancy/" class="md-nav__link">
+      <a href="../guides-multi-tenancy/" class="md-nav__link">
         Multi Tenancy
       </a>
     </li>
@@ -392,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-metrics/" class="md-nav__link">
+      <a href="../guides-metrics/" class="md-nav__link">
         Metrics
       </a>
     </li>
@@ -455,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-aws-secrets-manager/" class="md-nav__link">
+      <a href="../provider-aws-secrets-manager/" class="md-nav__link">
         Secrets Manager
       </a>
     </li>
@@ -467,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-aws-parameter-store/" class="md-nav__link">
+      <a href="../provider-aws-parameter-store/" class="md-nav__link">
         Parameter Store
       </a>
     </li>
@@ -506,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-azure-key-vault/" class="md-nav__link">
+      <a href="../provider-azure-key-vault/" class="md-nav__link">
         Key Vault
       </a>
     </li>
@@ -545,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-google-secrets-manager/" class="md-nav__link">
+      <a href="../provider-google-secrets-manager/" class="md-nav__link">
         Secrets Manager
       </a>
     </li>
@@ -584,7 +691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-ibm-secrets-manager/" class="md-nav__link">
+      <a href="../provider-ibm-secrets-manager/" class="md-nav__link">
         Secrets Manager
       </a>
     </li>
@@ -602,7 +709,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-hashicorp-vault/" class="md-nav__link">
+      <a href="../provider-hashicorp-vault/" class="md-nav__link">
         HashiCorp Vault
       </a>
     </li>
@@ -635,7 +742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-yandex-lockbox/" class="md-nav__link">
+      <a href="../provider-yandex-lockbox/" class="md-nav__link">
         Lockbox
       </a>
     </li>
@@ -674,7 +781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-gitlab-project-variables/" class="md-nav__link">
+      <a href="../provider-gitlab-project-variables/" class="md-nav__link">
         Gitlab Project Variables
       </a>
     </li>
@@ -713,7 +820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-oracle-vault/" class="md-nav__link">
+      <a href="../provider-oracle-vault/" class="md-nav__link">
         Oracle Vault
       </a>
     </li>
@@ -761,7 +868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/spec/" class="md-nav__link">
+      <a href="../spec/" class="md-nav__link">
         API specification
       </a>
     </li>
@@ -803,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing-devguide/" class="md-nav__link">
+      <a href="../contributing-devguide/" class="md-nav__link">
         Developer guide
       </a>
     </li>
@@ -815,7 +922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing-process/" class="md-nav__link">
+      <a href="../contributing-process/" class="md-nav__link">
         Contributing Process
       </a>
     </li>
@@ -827,7 +934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing-coc/" class="md-nav__link">
+      <a href="../contributing-coc/" class="md-nav__link">
         Code of Conduct
       </a>
     </li>
@@ -848,7 +955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/deprecation-policy/" class="md-nav__link">
+      <a href="../deprecation-policy/" class="md-nav__link">
         Deprecation Policy
       </a>
     </li>
@@ -862,11 +969,237 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resource-model" class="md-nav__link">
+    Resource model
+  </a>
+  
+    <nav class="md-nav" aria-label="Resource model">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secretstore" class="md-nav__link">
+    SecretStore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#externalsecret" class="md-nav__link">
+    ExternalSecret
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clustersecretstore" class="md-nav__link">
+    ClusterSecretStore
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#behavior" class="md-nav__link">
+    Behavior
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roles-and-responsibilities" class="md-nav__link">
+    Roles and responsibilities
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#access-control" class="md-nav__link">
+    Access Control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-multiple-controller" class="md-nav__link">
+    Running multiple Controller
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+                  <a href="https://github.com/external-secrets/external-secrets/edit/master/docs/api-overview.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="api-overview">API Overview</h1>
+<h2 id="architecture">Architecture</h2>
+<p><img alt="high-level" src="../pictures/diagrams-high-level-simple.png" /></p>
+<p>The External Secrets Operator extends Kubernetes with <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/">Custom
+Resources</a>,
+which define where secrets live and how to synchronize them. The controller
+fetches secrets from an external API and creates Kubernetes
+<a href="https://kubernetes.io/docs/concepts/configuration/secret/">secrets</a>. If the
+secret from the external API changes, the controller will reconcile the state in
+the cluster and update the secrets accordingly.</p>
+<h2 id="resource-model">Resource model</h2>
+<p>To understand the mechanics of the operator let's start with the data model. The
+SecretStore references an bucket of key/value pairs. But because every external
+API is slightly different this bucket may be e.g. an instance of an Azure
+KeyVault or a AWS Secrets Manager in a certain AWS Account and region. Please
+take a look at the provider documentation to see what the Bucket actually maps
+to.</p>
+<p><img alt="Resource Mapping" src="../pictures/diagrams-resource-mapping.png" /></p>
+<h3 id="secretstore">SecretStore</h3>
+<p>The idea behind the <a href="../api-secretstore/">SecretStore</a> resource is to separate concerns of
+authentication/access and the actual Secret and configuration needed for
+workloads. The ExternalSecret specifies what to fetch, the SecretStore specifies
+how to access. This resource is namespaced.</p>
+<p><div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1alpha1</span>
+<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">SecretStore</span>
+<span class="nt">metadata</span><span class="p">:</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">secretstore-sample</span>
+<span class="nt">spec</span><span class="p">:</span>
+  <span class="nt">controller</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dev</span>
+  <span class="nt">provider</span><span class="p">:</span>
+    <span class="nt">aws</span><span class="p">:</span>
+      <span class="nt">service</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">SecretsManager</span>
+      <span class="nt">role</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">arn:aws:iam::123456789012:role/team-a-reader</span>
+      <span class="nt">region</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">us-east-1</span>
+      <span class="nt">auth</span><span class="p">:</span>
+        <span class="nt">secretRef</span><span class="p">:</span>
+          <span class="nt">accessKeyIDSecretRef</span><span class="p">:</span>
+            <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">awssm-secret</span>
+            <span class="nt">key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">access-key</span>
+          <span class="nt">secretAccessKeySecretRef</span><span class="p">:</span>
+            <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">awssm-secret</span>
+            <span class="nt">key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">secret-access-key</span>
+</code></pre></div>
+The <code>SecretStore</code> contains references to secrets which hold credentials to
+access the external API.</p>
+<h3 id="externalsecret">ExternalSecret</h3>
+<p>An <a href="../api-externalsecret/">ExternalSecret</a> declares what data to fetch. It has a reference to a
+<code>SecretStore</code> which knows how to access that data. The controller uses that
+<code>ExternalSecret</code> as a blueprint to create secrets.</p>
+<div class="highlight"><pre><span></span><code><span class="nt">apiVersion</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">external-secrets.io/v1alpha1</span>
+<span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ExternalSecret</span>
+<span class="nt">metadata</span><span class="p">:</span>
+  <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">example</span>
+<span class="nt">spec</span><span class="p">:</span>
+  <span class="nt">refreshInterval</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1h</span>
+  <span class="nt">secretStoreRef</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">secretstore-sample</span>
+    <span class="nt">kind</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">SecretStore</span>
+  <span class="nt">target</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">secret-to-be-created</span>
+    <span class="nt">creationPolicy</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Owner</span>
+  <span class="nt">data</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">secretKey</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">secret-key-to-be-managed</span>
+    <span class="nt">remoteRef</span><span class="p">:</span>
+      <span class="nt">key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">provider-key</span>
+      <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">provider-key-version</span>
+      <span class="nt">property</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">provider-key-property</span>
+  <span class="nt">dataFrom</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">remote-key-in-the-provider</span>
+</code></pre></div>
+
+<h3 id="clustersecretstore">ClusterSecretStore</h3>
+<p>The <a href="../api-clustersecretstore/">ClusterSecretStore</a> is a global, cluster-wide SecretStore that can be
+referenced from all namespaces. You can use it to provide a central gateway to your secret provider.</p>
+<h2 id="behavior">Behavior</h2>
+<p>The External Secret Operator (ESO for brevity) reconciles <code>ExternalSecrets</code> in
+the following manner:</p>
+<ol>
+<li>ESO uses <code>spec.secretStoreRef</code> to find an appropriate <code>SecretStore</code>. If it
+   doesn't exist or the <code>spec.controller</code> field doesn't match it won't further
+   process this ExternalSecret.</li>
+<li>ESO instanciates an external API client using the specified credentials from
+   the <code>SecretStore</code> spec.</li>
+<li>ESO fetches the secrets as requested by the <code>ExternalSecret</code>, it will decode
+   the secrets if required</li>
+<li>ESO creates an <code>Kind=Secret</code> based on the template provided by
+   <code>ExternalSecret.target.template</code>. The <code>Secret.data</code> can be templated using
+   the secret values from the external API.</li>
+<li>ESO ensures that the secret values stay in sync with the external API</li>
+</ol>
+<h2 id="roles-and-responsibilities">Roles and responsibilities</h2>
+<p>The External Secret Operator is designed to target the following persona:</p>
+<ul>
+<li><strong>Cluster Operator</strong>: The cluster operator is responsible for setting up the
+  External Secret Operator, managing access policies and creating
+  ClusterSecretStores.</li>
+<li><strong>Application developer</strong>: The Application developer is responsible for
+  defining ExternalSecrets and the application configuration</li>
+</ul>
+<p>Each persona will roughly map to a Kubernetes RBAC role. Depending on your
+environment these roles can map to a single user. <strong>Note:</strong> There is no Secret
+Operator that handles the lifecycle of the secret, this is out of the scope of
+ESO.</p>
+<h2 id="access-control">Access Control</h2>
+<p>The External Secrets Operator runs as a deployment in your cluster with elevated
+privileges. It will create/read/update secrets in all namespaces and has access
+to secrets stored in some external API. Ensure that the credentials you provide
+give ESO the least privilege necessary.</p>
+<p>Design your <code>SecretStore</code>/<code>ClusterSecretStore</code> carefully! Be sure to restrict
+access of application developers to read only certain
+keys in a shared environment.</p>
+<p>You should also consider using Kubernetes' admission control system (e.g.
+<a href="https://www.openpolicyagent.org/">OPA</a> or <a href="https://kyverno.io/">Kyverno</a>) for
+fine-grained access control.</p>
+<h2 id="running-multiple-controller">Running multiple Controller</h2>
+<p>You can run multiple controller within the cluster. One controller can be
+limited to only process <code>SecretStores</code> with a predefined <code>spec.controller</code>
+field.</p>
+<div class="admonition note">
+<p class="admonition-title">Testers welcome</p>
+<p>This is not widely tested. Please help us test the setup and/or document use-cases.</p>
+</div>
+                
+              
+              
+                
+
 
               
             </article>
@@ -877,6 +1210,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Introduction
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../api-externalsecret/" class="md-footer__link md-footer__link--next" aria-label="Next: ExternalSecret" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              ExternalSecret
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -897,10 +1265,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "/assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.76f349be.min.js"></script>
+      <script src="../assets/javascripts/bundle.76f349be.min.js"></script>
       
     
   </body>

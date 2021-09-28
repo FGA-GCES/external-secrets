@@ -9,19 +9,19 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1, mkdocs-material-7.1.8">
     
     
       
-        <title>External Secrets Operator</title>
+        <title>Multi Tenancy - External Secrets Operator</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.ca7ac06f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ca7ac06f.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.f1a3b89f.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f1a3b89f.min.css">
         
       
     
@@ -64,12 +64,17 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("/",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#shared-clustersecretstore" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -78,7 +83,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="External Secrets Operator" class="md-header__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
+    <a href=".." title="External Secrets Operator" class="md-header__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -97,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Multi Tenancy
             
           </span>
         </div>
@@ -171,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="External Secrets Operator" class="md-nav__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
+    <a href=".." title="External Secrets Operator" class="md-nav__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -203,7 +208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -218,7 +223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-overview/" class="md-nav__link">
+      <a href="../api-overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -254,7 +259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-externalsecret/" class="md-nav__link">
+      <a href="../api-externalsecret/" class="md-nav__link">
         ExternalSecret
       </a>
     </li>
@@ -266,7 +271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-secretstore/" class="md-nav__link">
+      <a href="../api-secretstore/" class="md-nav__link">
         SecretStore
       </a>
     </li>
@@ -278,7 +283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-clustersecretstore/" class="md-nav__link">
+      <a href="../api-clustersecretstore/" class="md-nav__link">
         ClusterSecretStore
       </a>
     </li>
@@ -297,12 +302,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       <label class="md-nav__link" for="__nav_4">
         Guides
@@ -320,7 +327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-introduction/" class="md-nav__link">
+      <a href="../guides-introduction/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -332,7 +339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-getting-started/" class="md-nav__link">
+      <a href="../guides-getting-started/" class="md-nav__link">
         Getting started
       </a>
     </li>
@@ -344,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-templating/" class="md-nav__link">
+      <a href="../guides-templating/" class="md-nav__link">
         Advanced Templating
       </a>
     </li>
@@ -356,7 +363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-all-keys-one-secret/" class="md-nav__link">
+      <a href="../guides-all-keys-one-secret/" class="md-nav__link">
         All keys, One secret
       </a>
     </li>
@@ -368,7 +375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-common-k8s-secret-types/" class="md-nav__link">
+      <a href="../guides-common-k8s-secret-types/" class="md-nav__link">
         Common K8S Secret Types
       </a>
     </li>
@@ -378,11 +385,61 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/guides-multi-tenancy/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Multi Tenancy
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Multi Tenancy
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#shared-clustersecretstore" class="md-nav__link">
+    Shared ClusterSecretStore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managed-secretstore-per-namespace" class="md-nav__link">
+    Managed SecretStore per Namespace
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eso-as-a-service" class="md-nav__link">
+    ESO as a Service
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -392,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/guides-metrics/" class="md-nav__link">
+      <a href="../guides-metrics/" class="md-nav__link">
         Metrics
       </a>
     </li>
@@ -455,7 +512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-aws-secrets-manager/" class="md-nav__link">
+      <a href="../provider-aws-secrets-manager/" class="md-nav__link">
         Secrets Manager
       </a>
     </li>
@@ -467,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-aws-parameter-store/" class="md-nav__link">
+      <a href="../provider-aws-parameter-store/" class="md-nav__link">
         Parameter Store
       </a>
     </li>
@@ -506,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-azure-key-vault/" class="md-nav__link">
+      <a href="../provider-azure-key-vault/" class="md-nav__link">
         Key Vault
       </a>
     </li>
@@ -545,7 +602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-google-secrets-manager/" class="md-nav__link">
+      <a href="../provider-google-secrets-manager/" class="md-nav__link">
         Secrets Manager
       </a>
     </li>
@@ -584,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-ibm-secrets-manager/" class="md-nav__link">
+      <a href="../provider-ibm-secrets-manager/" class="md-nav__link">
         Secrets Manager
       </a>
     </li>
@@ -602,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-hashicorp-vault/" class="md-nav__link">
+      <a href="../provider-hashicorp-vault/" class="md-nav__link">
         HashiCorp Vault
       </a>
     </li>
@@ -635,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-yandex-lockbox/" class="md-nav__link">
+      <a href="../provider-yandex-lockbox/" class="md-nav__link">
         Lockbox
       </a>
     </li>
@@ -674,7 +731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-gitlab-project-variables/" class="md-nav__link">
+      <a href="../provider-gitlab-project-variables/" class="md-nav__link">
         Gitlab Project Variables
       </a>
     </li>
@@ -713,7 +770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/provider-oracle-vault/" class="md-nav__link">
+      <a href="../provider-oracle-vault/" class="md-nav__link">
         Oracle Vault
       </a>
     </li>
@@ -761,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/spec/" class="md-nav__link">
+      <a href="../spec/" class="md-nav__link">
         API specification
       </a>
     </li>
@@ -803,7 +860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing-devguide/" class="md-nav__link">
+      <a href="../contributing-devguide/" class="md-nav__link">
         Developer guide
       </a>
     </li>
@@ -815,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing-process/" class="md-nav__link">
+      <a href="../contributing-process/" class="md-nav__link">
         Contributing Process
       </a>
     </li>
@@ -827,7 +884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing-coc/" class="md-nav__link">
+      <a href="../contributing-coc/" class="md-nav__link">
         Code of Conduct
       </a>
     </li>
@@ -848,7 +905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/deprecation-policy/" class="md-nav__link">
+      <a href="../deprecation-policy/" class="md-nav__link">
         Deprecation Policy
       </a>
     </li>
@@ -862,11 +919,115 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#shared-clustersecretstore" class="md-nav__link">
+    Shared ClusterSecretStore
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managed-secretstore-per-namespace" class="md-nav__link">
+    Managed SecretStore per Namespace
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eso-as-a-service" class="md-nav__link">
+    ESO as a Service
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+                  <a href="https://github.com/external-secrets/external-secrets/edit/master/docs/guides-multi-tenancy.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Multi Tenancy</h1>
+                
+                <p>External Secrets Operator provides different modes of operation to fulfill
+ogranizational needs. This guide outlines the flexibility of ESO and should give
+you a first impression of how you can employ this operator in your organization.</p>
+<p>For a multi-tenant deployment you should first examine your organizational
+structure:</p>
+<ol>
+<li>what roles (i.e. <em>Application Developers</em>, <em>Cluster Admins</em>, ...) do you have
+   in your organization,</li>
+<li>what responsibilities do they have and</li>
+<li>how does that map to Kubernetes RBAC roles.</li>
+</ol>
+<p>Further, you should examine how your external API provider manages access
+control for your secrets. Can you limit access by secret names (e.g.
+<code>db/dev/*</code>)? Or only on a bucket level? Please keep in mind that not all
+external APIs provide fine-grained access management for secrets.</p>
+<p><strong>Note:</strong> The following examples should <strong>not</strong> be considered as best practice
+but rather as a example to show how to combine different mechanics and
+techniques for tenant isolation.</p>
+<h3 id="shared-clustersecretstore">Shared ClusterSecretStore</h3>
+<p><img alt="Shared CSS" src="../pictures/diagrams-multi-tenancy-shared.png" /></p>
+<p>A Cluster Administrator deploys a <code>ClusterSecretStore</code> (CSS) and manages access
+to the external API. The CSS is shared by all tenants within the cluster.
+Application Developers do reference it in a <code>ExternalSecret</code> but can not create
+a ClusterSecretStores or SecretStores on their own. Now all application
+developers have access to all the secrets. You probably want to limit access to
+certain keys or prefixes that should be used. ESO does not provide a mechanic
+to limit access to certain keys per namespace. More advanced validation should be
+done with an Admission Webhook, e.g. with <a href="https://kyverno.io/">Kyverno</a> or
+<a href="https://www.openpolicyagent.org/">Open Policy Agent</a>).</p>
+<p>This setup suites well if you have one central bucket that contains all of your
+secrets and your Cluster Administrators should manage access to it. This setup
+is very simple but does not scale very well.</p>
+<h3 id="managed-secretstore-per-namespace">Managed SecretStore per Namespace</h3>
+<p><img alt="Shared CSS" src="../pictures/diagrams-multi-tenancy-managed-store.png" /></p>
+<p>Cluster Administrators manage one or multipe <code>SecretStores</code> per Namespace. Each
+SecretStore uses it's own <em>role</em> that limits access to a small set of keys. The
+peculiarity of this is approach is, that <strong>access is actually managed by the
+external API</strong> which provides the roles. The Cluster Administrator does just the
+wiring. This approach may be desirable if you have an external entity - let's
+call it <strong>Secret Administrator</strong> - that manages access and lifecycle of the
+secrets.</p>
+<h3 id="eso-as-a-service">ESO as a Service</h3>
+<p><img alt="Shared CSS" src="../pictures/diagrams-multi-tenancy-self-service.png" /></p>
+<p>Every namespace is self-contained. Application developers manage <code>SecretStore</code>,
+<code>ExternalSecret</code> and secret infrastructure on their own. Cluster Administrators
+<em>just</em> provide the External Secrets Operator as a service.</p>
+<p>This makes sense if application developers should be completely autonomous while
+a central team provides common services.</p>
+                
+              
+              
+                
+
 
               
             </article>
@@ -877,6 +1038,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../guides-common-k8s-secret-types/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Common K8S Secret Types" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Common K8S Secret Types
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../guides-metrics/" class="md-footer__link md-footer__link--next" aria-label="Next: Metrics" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Metrics
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -897,10 +1093,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "/assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.76f349be.min.js"></script>
+      <script src="../assets/javascripts/bundle.76f349be.min.js"></script>
       
     
   </body>
