@@ -22,10 +22,10 @@ Issues
 ### Mateus O. Patrício
 
 
-&emsp;&emsp;Esta sprint foi focada em clean code, procurei algumas coisas por conta mas o código já está bem "limpo", tentei resolver algo de complexidade mas ao conversar com o meta coach, como as funções de complexidade elevada dependiam de muitas coisas, ele me orientou à resolver alguns code smells apontados pelo Sonar Cloud, descritos no PR [#425](https://github.com/external-secrets/external-secrets/pull/425).
+&emsp;&emsp;Esta sprint foi focada em clean code, procurei algumas coisas por conta mas o código já está bem "limpo", tentei resolver algo de complexidade mas ao conversar com o meta coach, como as funções de complexidade elevada dependiam de muitas coisas, ele me orientou à resolver alguns code smells apontados pelo Sonar Cloud, descritos no PR [#420](https://github.com/external-secrets/external-secrets/pull/420).
 
 
 ### André Aben-Athar de Freitas
 
 
-&emsp;&emsp;Com uma sprint baseada em clean code e boas práticas, foi discutido com nosso coach que seria interessante resolvermos problemas apontados pelo Sonar Cloud. Deste modo, separei alguns code smells para serem resolvidos por mim  [#420](https://github.com/external-secrets/external-secrets/pull/420).
+&emsp;&emsp;Com uma sprint baseada em clean code e boas práticas, foi discutido com nosso coach que seria interessante resolvermos problemas apontados pelo Sonar Cloud. Deste modo, separei alguns code smells para serem resolvidos por mim  [#425](https://github.com/external-secrets/external-secrets/pull/425).
