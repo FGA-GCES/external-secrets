@@ -22,3 +22,7 @@ Issues
 ### Mateus Oliveira Patrício
 
 &emsp;&emsp;Nesta sprint comecei a entender melhor o que o projeto faz de fato, não consegui participar de todas as reuniões de maneira síncrona mas assisti as gravações e além de conversar bastante pelo telegram com o Lucas Severo tivemos um pareamento onde ele me ajudou a debuggar a controller. A issue em que eu trabalhei foi bem tranquila, basicamente uma condição foi adicionada ao código, o desafio estava em debuggar e entender o que estava acontecendo ali.
+
+### André Aben-Athar de Freitas
+
+&emsp;&emsp;A partir deste sprint que de fato começei a me ambnientar direito com o projeto. Ví os vídeos que nosso meta coach gravou e também li a documentação do projeto. Assim, peguei uma issue com o rótulo de 'good first issue' que é sobre implementar teste end-to-end na parte que gere os segredos AWS.
