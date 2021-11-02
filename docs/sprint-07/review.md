@@ -18,3 +18,7 @@ Nesta última sprint eu e o Mateus Patrício decidimos por parar de trabalhar na
 ### André Aben-Athar de Freitas
 
 &emsp;&emsp; Ultima sprint do semestre, revisei algumas issues para fazer, mas não tive o tempo necessário. Nesta sprint conversei com nosso coach no grupo e revisamos o feito pela equipe durante o semestre
+
+### Eduardo Vieira Lima
+
+&emsp;&emsp;Por fim, consegui resolver os problemas de ambiente e ajustei os pontos pedidos no PR da issue [#416](https://github.com/external-secrets/external-secrets/issues/416). Finalizando assim minhas contribuições.

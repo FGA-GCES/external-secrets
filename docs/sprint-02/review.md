@@ -26,3 +26,7 @@ Issues
 ### André Aben-Athar de Freitas
 
 &emsp;&emsp;A partir deste sprint que de fato começei a me ambnientar direito com o projeto. Ví os vídeos que nosso meta coach gravou e também li a documentação do projeto. Assim, peguei uma issue com o rótulo de 'good first issue' que é sobre implementar teste end-to-end na parte que gere os segredos AWS.
+
+### Eduardo Vieira Lima
+
+&emsp;&emsp;Nesssa sprint comecei a entender um pouco melhor o ambiente mas ainda com muita dificuldade. O vídeo com o meta coach ajudou muito para entender melhor, assim comecei a trablhar na issue [#221](https://github.com/external-secrets/external-secrets/issues/221), entendendo qual é o problema e como posso resolvê-lo.

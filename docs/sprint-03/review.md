@@ -25,3 +25,7 @@ Issues
 ### André Aben-Athar de Freitas
 
 &emsp;&emsp;Ainda trabalhando na issue #209, vi o vídeo gravado pelo meta coach e tentei continuar minha issue. Estou tendo dificuldades em rodas os testes e começar de fato a codar.
+
+### Eduardo Vieira Lima
+
+&emsp;&emsp;Participei da reunião com o meta coach, para conseguir entender melhor os problemas que tenho no projeto e também como me comunicar na issue que peguei no projeto.

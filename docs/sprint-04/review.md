@@ -28,3 +28,7 @@ Issues
 
 &emsp;&emsp;Não conseguindo andar muito na parte de código, resolvi me voltar para issues que ajudem os mantenedores e possíveis usuários. NA issue [#359](https://github.com/external-secrets/external-secrets/issues/359) tivemos uma conversa do quanto seria interessante uma documentação do projeto no formato swagger. Junto com o Eduardo, estamos conversando nosso MetaCoach como é o melhor jeito de fazer isso. Provavlemente utilizaremos o mesmo método que o reposítorio oficial do kubernetes utiliza. E após isso, subir os arquivos com um passo no github actions.
 Também junto com o Eduardo Lima, atualizamos um pacote na issue issue [#378](https://github.com/external-secrets/external-secrets/issues/378)
+
+### Eduardo Vieira Lima
+
+&emsp;&emsp;Não consegui dar continuidade na issue #221 pois acabou sendo resolvida em outro PR relacionado, assim junto do André começamos a estudar e trabalhar nas issues [#359](https://github.com/external-secrets/external-secrets/issues/359) e [#378](https://github.com/external-secrets/external-secrets/issues/378)
