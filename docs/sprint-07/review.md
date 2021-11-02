@@ -13,5 +13,5 @@ Issues
 ## Depoimentos
 
 
-
+### André Aben-Athar de Freitas
 &emsp;&emsp; Ultima sprint do semstres, revisei algumas issues para fazer, mas não tive o tempo necessário. Nesta sprint conversei com nosso coach no grupo e revisamos o feito pela equipe durante o semestre

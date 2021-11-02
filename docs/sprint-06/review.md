@@ -15,4 +15,4 @@ Issues
 ### André Aben-Athar de Freitas
 
 
-&emsp;&emsp; Tive fazer uma série de ajustes ao meu PR [#425](https://github.com/external-secrets/external-secrets/pull/425), pois outra pessoa tinha trabalhado no mesmo arquivo que eu e isto gerou conflitos no merge
+&emsp;&emsp; Tive fazer uma série de ajustes ao meu PR [#425](https://github.com/external-secrets/external-secrets/pull/425), pois outra pessoa tinha trabalhado no mesmo arquivo que eu e isto gerou conflitos no merge. E mesmo conversando com o Lucas Severo, não consegui terminar a issue [#209](https://github.com/external-secrets/external-secrets/issues/209), de modo que retirei ela dos meus afazeres após outra pessoa da comunidade open source pediu para fazer ela.
