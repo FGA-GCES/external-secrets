@@ -6,6 +6,7 @@ theme:
   language: pt
 
 nav:
+  - Documentação : index.md
   - Sprint 1: sprint-01/review.md
   - Sprint 2: sprint-02/review.md
   - Sprint 3: sprint-03/review.md
