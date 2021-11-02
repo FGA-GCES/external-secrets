@@ -1,4 +1,4 @@
-# Sprint 5
+# Sprint 6
 
 Data de início: 07/10/2021
 
@@ -26,3 +26,7 @@ Nesta sprint resolvi problemas de lint no PR [421](https://github.com/external-s
 ### Eduardo Vieira Lima
 
 &emsp;&emsp;Nesta sprint tive dificuldades com o ambiente e não consegui finalizar a issue que iniciei na sprint passada, por falta de tempo e organização não consegui evoluir.
+
+### Mateus Oliveira Patrício
+
+&emsp;&emsp;Nesta sprint pareei com o Arthur Paiva na issue [#134](https://github.com/external-secrets/external-secrets/issues/134), mas tivemos bastante dificuldade e não conseguimos desenvolver nenhum entregável.

@@ -15,5 +15,6 @@ Junt com a experiência de aprender coisas novas, o grupo também adentrou no un
 | André Freitas (@andreabenf) 17/0056155          | 2              | 4       |
 | Arthur Paiva Tavares (@ArthurPaivaT) 18/0013637 | 2              | 11      |
 | Eduardo Vieira Lima (@Ed-vL) 17/0102343         | 2              | 7       |
+| Mateus O. Patrício (@omateusp) 16/0015006       | 3              | 17      |
 
 ![](https://i.imgur.com/WYsFveA.png)

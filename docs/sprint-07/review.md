@@ -1,4 +1,4 @@
-# Sprint 5
+# Sprint 7
 
 Data de início: 19/10/2021
 
@@ -13,7 +13,7 @@ Issues
 
 ### Arthur Paiva Tavares
 
-Nesta última sprint eu e o Mateus Patrício decidimos por parar de trabalhar na issue [134](https://github.com/external-secrets/external-secrets/issues/134) por dificuldades com a implementação da feature. O projeto todo roda em torno de uma controller que executa para um namespace específico e precisaríamos de uma nova controller para executar com escopo de cluster ou em todos os namespaces, e isso gerou uma complexidade extremamente alta pra nós que não tínhamos tanto conhecimento de como a controller existente executava por baixo dos panos, o que tornaria inviável terminar a feature nesta última sprint..
+&emsp;&emsp;Nesta última sprint eu e o Mateus Patrício decidimos por parar de trabalhar na issue [134](https://github.com/external-secrets/external-secrets/issues/134) por dificuldades com a implementação da feature. O projeto todo roda em torno de uma controller que executa para um namespace específico e precisaríamos de uma nova controller para executar com escopo de cluster ou em todos os namespaces, e isso gerou uma complexidade extremamente alta pra nós que não tínhamos tanto conhecimento de como a controller existente executava por baixo dos panos, o que tornaria inviável terminar a feature nesta última sprint..
 
 ### André Aben-Athar de Freitas
 
@@ -22,3 +22,7 @@ Nesta última sprint eu e o Mateus Patrício decidimos por parar de trabalhar na
 ### Eduardo Vieira Lima
 
 &emsp;&emsp;Por fim, consegui resolver os problemas de ambiente e ajustei os pontos pedidos no PR da issue [#416](https://github.com/external-secrets/external-secrets/issues/416). Finalizando assim minhas contribuições.
+
+### Mateus Oliveira Patrício
+
+&emsp;&emsp;Nesta sprint eu e o Arthur decidimos abandonar a issue [#134](https://github.com/external-secrets/external-secrets/issues/134) pois chegamos à conclusão que não iríamos conseguir finalizá-la por falta de conhecimento do projeto e da tecnologia utilizada.
