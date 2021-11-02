@@ -10,6 +10,7 @@ Issues
 | ----------------------------------------------------------------------- | ----------------------------- | ----------------- | -------------------------------------------------------------------- |
 | [#156](https://github.com/external-secrets/external-secrets/issues/156) | Support for immutable secrets | Arthur P. Tavares | [WIP](https://github.com/external-secrets/external-secrets/pull/329) |
 | [#350](https://github.com/external-secrets/external-secrets/issues/350) | We need tests for target secret name defaults | Mateus O. Patrício | [WIP](https://github.com/external-secrets/external-secrets/pull/369) |
+| [#209](https://github.com/external-secrets/external-secrets/issues/209) | e2e tests for AWS Secrets Manager                                           | André Freitas      | [WIP](https://github.com/external-secrets/external-secrets/issues/209) |
 
 ## Depoimentos
 
@@ -20,3 +21,7 @@ Issues
 ### Mateus Oliveira Patrício
 
 &emsp;&emsp;Nesta sprint além da reunião que participei com o meta coach, comecei a fazer os testes unitários e e2e relacionados à feature que entreguei na sprint passada, tive bastante dificuldade pra começar a entender como funcionam os testes mas consegui finalizar os testes unitários.
+
+### André Aben-Athar de Freitas
+
+&emsp;&emsp;Ainda trabalhando na issue #209, vi o vídeo gravado pelo meta coach e tentei continuar minha issue. Estou tendo dificuldades em rodas os testes e começar de fato a codar.
