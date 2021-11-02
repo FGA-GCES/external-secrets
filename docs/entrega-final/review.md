@@ -16,9 +16,10 @@ Junt com a experiência de aprender coisas novas, o grpo também adentrou no uni
 
 | Integrante | PR's Abertos | Commits |
 | -------- | -------- | -------- |
-| André Freitas (@andreabenf) 17/0056155     | 2     | 10     |
+| André Freitas (@andreabenf) 17/0056155     | 2     | 4     |
 
 
+![](https://i.imgur.com/WYsFveA.png)
 
 
 
