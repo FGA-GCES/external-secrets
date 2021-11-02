@@ -11,6 +11,7 @@ Issues
 | [#156](https://github.com/external-secrets/external-secrets/issues/156) | Criação de testes para os métodos criados na feature | Arthur Paiva | [DONE](https://github.com/external-secrets/external-secrets/pull/329) |
 | [#416](https://github.com/external-secrets/external-secrets/issues/416) | Resolução dos code smells de Cognitive Complexity    | Arthur Paiva | [DONE](https://github.com/external-secrets/external-secrets/pull/421) |
 | [#416](https://github.com/external-secrets/external-secrets/issues/416) | Redução de literais duplicados | Mateus O. Patrício | [DONE](https://github.com/external-secrets/external-secrets/pull/420) |
+| [#416](https://github.com/external-secrets/external-secrets/issues/416) | Redução de literais duplicados | André Freitas | [DONE](https://github.com/external-secrets/external-secrets/pull/425) |
 
 ## Depoimentos
 
